@@ -1,0 +1,17 @@
+*{
+  align-items: center;
+  align-content: center;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#join-game{
+  font-size: 30px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: blue;
+  padding: 16px;
+}
