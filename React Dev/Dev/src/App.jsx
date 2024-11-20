@@ -10,12 +10,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div class="sg">
       <h1>Imagene</h1>
       <Form.Control size="lg" type="text" placeholder="Key in Game Code" />
       
       <Button variant="primary" id="join-game">Join Game</Button>
-    </>
+    </div>
   )
 }
 
