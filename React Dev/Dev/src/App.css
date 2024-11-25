@@ -17,6 +17,20 @@ h1{
 }
 
 .sg{
-  margin:100px;
+  text-align: center;
   
+}
+
+body{
+  display:block;
+}
+
+#game{
+  padding: 5px;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.sg h1{
+  color: white; 
 }

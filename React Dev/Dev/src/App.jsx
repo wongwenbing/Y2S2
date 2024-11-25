@@ -8,15 +8,21 @@ import Button from 'react-bootstrap/Button'
 
 function App() {
   const [count, setCount] = useState(0)
+  document.body.style='background: #006ED3;';
 
   return (
-    <div class="sg">
+    <div className="sg">
       <h1>Imagene</h1>
-      <Form.Control size="lg" type="text" placeholder="Key in Game Code" />
-      
-      <Button variant="primary" id="join-game">Join Game</Button>
+      <Form.Control size="lg" id="game" type="text" placeholder="Key in Game Code" />
+      <br />
+      <Button variant="primary" id="join-game" onClick={}>Join Game</Button>
     </div>
   )
 }
+
+function joingame() {
+  once done go to next page
+}
+
 
 export default App
