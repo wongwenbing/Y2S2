@@ -5,6 +5,7 @@ import './App.css'
 import Form from 'react-bootstrap/Form'
 import InputGroup from 'react-bootstrap/InputGroup'
 import Button from 'react-bootstrap/Button'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function Starting() {
   const [count, setCount] = useState(0)
